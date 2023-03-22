@@ -2,6 +2,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
+
 public class Main {
     // Deze 4 constanten worden gebruikt om tekst met kleur te printen in de console.
     // Hier hoef je niks mee te doen
@@ -10,8 +11,8 @@ public class Main {
     public static final String ANSI_RED = "\u001B[31m";
     public static final String ANSI_GREEN = "\u001B[32m";
 
-    // Dit zijn de Pokemons die je tot je beschikking hebt
-    private static final FirePokemon charizard = new FirePokemon("Charrizard", 76, 150, "firenougats", "GRRRRRRRRRRRRRRR");
+    // Dit zijn de Pokemon's die je tot je beschikking hebt
+    private static final FirePokemon charizard = new FirePokemon("Charrizard", 76, 150, "Firenougats", "GRRRRRRRRRRRRRRR");
     private static final WaterPokemon blastoise = new WaterPokemon("Blastoise", 40, 110, "Pokeflakes", "Blaaaaasssssstooooiiiiissss");
     private static final GrassPokemon venusaur = new GrassPokemon("Venusaur", 50, 135, "Pokeleafs", "Veeeeeeeeennnnnuuuuuusaur");
     private static final GrassPokemon ditto = new GrassPokemon("Ditto", 60, 140, "Everything", "Dittto diiiito ");
@@ -21,7 +22,7 @@ public class Main {
     private static List<Pokemon> pokemons = Arrays.asList(charizard, blastoise, venusaur, ditto, raichu, gyarados);
 
 
-    // Los in de main methode alle foutmeldigen op door (abstracte) klassen met variabelen en methoden te maken (en soms een import).
+    // Los in de main methode alle foutmeldingen op door (abstracte) klassen met variabelen en methoden te maken (en soms een import).
     // In de main methode en de Main klasse hoef je niks te veranderen.
     public static void main(String[] args) {
         Scanner speler_A = new Scanner(System.in);
